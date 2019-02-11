@@ -21,9 +21,11 @@ class App extends Component {
     return (
       <div className="App">
         <header>
+          <h1>FaceBook-Lite </h1>
           <button class="button" onClick={() => this.setState({name: 'Simon', fullname :'Lhuillier' , date : '19/11/1997', photo : "https://upload.wikimedia.org/wikipedia/commons/a/ae/Michel_Vuillermoz_20070511_Fnac_6.jpg", contenu :'Cherche lamour', backstyle : '#ae734',like :'0 like'})}>{'Simon Lhuillier'}</button>
           <button class="button" onClick={() => this.setState({name: 'Maxime', fullname :'Bienassis' , date : '28/08/1997', photo : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Michel_Cremades.jpg/220px-Michel_Cremades.jpg", contenu :'Cherche son chien' , backstyle : '#ae734',like :'0 like'})}>{'Maxime Bienassis'}</button>
           <button class="button" onClick={() => this.setState({name: 'Mathieu', fullname :'Josserand' , date : '18/01/1997', photo : "https://pbs.twimg.com/profile_images/723502115180699650/Iq2hcHUE_400x400.jpg", contenu :'Chien cherche lamour', backstyle : '#ae734',like :'0 like'})}>{'Mathieu Josserand'}</button>
+          <h6> Profil </h6>
           </header>
     
         
@@ -45,7 +47,7 @@ class App extends Component {
   changeBackgroung = (e) => {
     if (this.state.backstyle == 'beige') 
   
-    {this.setState({backstyle: 'red'});}
+    {this.setState({backstyle: 'rgb(62, 120, 247)'});}
       
     else 
     { this.setState({backstyle: 'beige'});}
