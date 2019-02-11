@@ -2,9 +2,46 @@
   text-align: center;
 }
 
+img{
+
+  border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 1090px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 100px;
+
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
+}
+
+button{
+  background: thistle;
+}
+
+header{
+  background-color: rgb(167, 32, 155);
+}
+
+body{
+
+  background-color: beige;
+  padding: 10px 60px 20px 60px;
+  
+}
+
+.card{
+  border: 1px double;
+  border-width: 3px;
+  border-color: black;
+}
+
+.post{
+  border: 1px double;
+  border-width: 3px;
+  border-color: black;
 }
 
 .App-header {
